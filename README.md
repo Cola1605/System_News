@@ -32,8 +32,12 @@ Mở file trong `content/posts/`. Đổi `draft: false` để hiển thị.
    git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
    git push -u origin main
    ```
-2. GitHub Actions: Skeleton đã có sẵn workflow. Mở tab **Actions** -> bật workflows.
-3. Sau khi workflow chạy xong, vào **Settings → Pages**:
+2. **Bật GitHub Actions**:
+   - Vào repository trên GitHub: `https://github.com/Cola1605/System_News`
+   - Click tab **Actions** 
+   - Click **"I understand my workflows, go ahead and enable them"** (nếu có)
+   - Workflow sẽ tự động chạy khi bạn push code mới
+3. **Cấu hình GitHub Pages** - Sau khi workflow chạy xong, vào **Settings → Pages**:
    - **Source**: chọn **Deploy from a branch**
    - **Branch**: `gh-pages` (root)
 4. Mở `https://YOUR_USERNAME.github.io/` để xem site.
