@@ -38,9 +38,9 @@ Mở file trong `content/posts/`. Đổi `draft: false` để hiển thị.
    - Click **"I understand my workflows, go ahead and enable them"** (nếu có)
    - Workflow sẽ tự động chạy khi bạn push code mới
 3. **Cấu hình GitHub Pages** - Sau khi workflow chạy xong, vào **Settings → Pages**:
-   - **Source**: chọn **Deploy from a branch**
-   - **Branch**: `gh-pages` (root)
-4. Mở `https://YOUR_USERNAME.github.io/` để xem site.
+   - **Source**: chọn **GitHub Actions** (nếu có) hoặc **Deploy from a branch**
+   - **Branch**: `gh-pages` (root) - nếu chọn deploy from branch
+4. Mở `https://cola1605.github.io/System_News/` để xem site.
    - Nếu dùng custom domain, tạo file `static/CNAME` chứa tên miền (VD: `blog.tenban.com`), bật HTTPS trong Pages.
 
 ## 🧩 Cấu trúc thư mục
