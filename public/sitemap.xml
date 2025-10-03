@@ -2,23 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:63093/</loc>
+    <loc>http://localhost:1313/System_News/</loc>
+    <lastmod>2025-10-02T18:00:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/System_News/posts/</loc>
+    <lastmod>2025-10-02T18:00:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/System_News/tags/hugo/</loc>
+    <lastmod>2025-10-02T17:30:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/System_News/posts/huong-dan-su-dung-hugo/</loc>
+    <lastmod>2025-10-02T17:30:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/System_News/tags/static-site/</loc>
+    <lastmod>2025-10-02T17:30:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/System_News/tags/</loc>
+    <lastmod>2025-10-02T17:30:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/System_News/tags/tutorial/</loc>
+    <lastmod>2025-10-02T17:30:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/System_News/tags/web-development/</loc>
+    <lastmod>2025-10-02T17:30:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/System_News/tags/ai/</loc>
+    <lastmod>2025-10-02T16:56:15+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/System_News/posts/ten-bai-viet/</loc>
+    <lastmod>2025-10-02T16:56:15+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/System_News/tags/machine-learning/</loc>
+    <lastmod>2025-10-02T16:56:15+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/System_News/tags/programming/</loc>
+    <lastmod>2025-10-02T16:56:15+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/System_News/tags/technology/</loc>
+    <lastmod>2025-10-02T16:56:15+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/System_News/posts/hello-world/</loc>
     <lastmod>2025-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:63093/posts/hello-world/</loc>
+    <loc>http://localhost:1313/System_News/tags/intro/</loc>
     <lastmod>2025-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:63093/tags/intro/</loc>
-    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/System_News/categories/</loc>
   </url><url>
-    <loc>http://localhost:63093/posts/</loc>
-    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:63093/tags/</loc>
-    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:63093/categories/</loc>
-  </url><url>
-    <loc>http://localhost:63093/about/</loc>
+    <loc>http://localhost:1313/System_News/about/</loc>
   </url>
 </urlset>

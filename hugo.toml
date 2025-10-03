@@ -13,3 +13,4 @@ enableRobotsTXT = true
 [markup]
   [markup.goldmark.renderer]
     unsafe = true
+theme = "Mainroad"
