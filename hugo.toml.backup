@@ -1,0 +1,16 @@
+baseURL = "https://Cola1605.github.io/System_News/"
+languageCode = "vi"
+title = "Blog của Khoa"
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  description = "Blog cá nhân chia sẻ kiến thức về lập trình, AI và công nghệ."
+  author = "Cola1605"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+theme = "Mainroad"
