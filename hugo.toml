@@ -1,4 +1,4 @@
-baseURL = "https://Cola1605.github.io/System_News/"
+baseURL = "https://Cola1605.github.io/System_News"
 title = "Blog của Khoa"
 languageCode = "vi"
 
@@ -42,3 +42,4 @@ googleAnalytics = ""
   pagerSize = 10
 canonifyURLs = true
 relativeURLs = false
+uglyURLs = false
