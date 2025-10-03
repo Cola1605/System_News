@@ -43,3 +43,18 @@ googleAnalytics = ""
 canonifyURLs = true
 relativeURLs = false
 uglyURLs = false
+
+[[menu.main]]
+  name = "Trang chủ"
+  url = "/System_News/"
+  weight = 10
+
+[[menu.main]]
+  name = "Bài viết"
+  url = "/System_News/posts/"
+  weight = 20
+
+[[menu.main]]
+  name = "Giới thiệu"
+  url = "/System_News/about/"
+  weight = 30
