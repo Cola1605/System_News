@@ -1,0 +1,66 @@
+/* Processed CSS from Mainroad theme */
+*,
+*::before,
+*::after {
+        box-sizing: border-box;
+}
+
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+        display: block;
+}
+
+body {
+        margin: 0;
+        font-family: "Open Sans", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #333;
+        background: #fff;
+}
+
+.container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+}
+
+.site-header {
+        background: #fff;
+        border-bottom: 1px solid #eee;
+        padding: 1rem 0;
+}
+
+.flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #333;
+        text-decoration: none;
+}
+
+.nav a {
+        margin-left: 1rem;
+        color: #333;
+        text-decoration: none;
+}
+
+.nav a:hover {
+        color: #e22d30;
+}
+
+.main {
+        margin: 2rem 0;
+}
+
+.site-footer {
+        background: #f8f8f8;
+        border-top: 1px solid #eee;
+        padding: 2rem 0;
+        text-align: center;
+        color: #666;
+}
