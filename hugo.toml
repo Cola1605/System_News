@@ -40,3 +40,5 @@ googleAnalytics = ""
       unsafe = true
 [pagination]
   pagerSize = 10
+canonifyURLs = true
+relativeURLs = false
