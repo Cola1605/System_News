@@ -44,6 +44,10 @@ canonifyURLs = true
 relativeURLs = false
 uglyURLs = false
 
+# Force absolute URLs everywhere
+[params]
+  baseURL = "https://Cola1605.github.io/System_News"
+
 [[menu.main]]
   name = "Trang chủ"
   url = "/System_News/"

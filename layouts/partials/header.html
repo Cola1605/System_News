@@ -1,10 +1,29 @@
-<header class="site-header">
-  <div class="container flex">
-    <a href="{{ "/" | relURL }}" class="logo">{{ .Site.Title }}</a>
-    <nav class="nav">
-      <a href="{{ "/" | relURL }}">Trang chủ</a>
-      <a href="{{ "/posts/" | relURL }}">Bài viết</a>
-      <a href="{{ "/about/" | relURL }}">Giới thiệu</a>
-    </nav>
-  </div>
+<header class="header">
+	<div class="container header__container">
+		{{ partial "logo.html" . }}
+		
+		{{/* Override menu with correct URLs */}}
+		<nav class="menu">
+			<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+				<span class="menu__btn-title" tabindex="-1">Menu</span>
+			</button>
+			<ul class="menu__list">
+				<li class="menu__item">
+					<a class="menu__link" href="https://cola1605.github.io/System_News/">
+						<span class="menu__text">Trang chủ</span>
+					</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="https://cola1605.github.io/System_News/posts/">
+						<span class="menu__text">Bài viết</span>
+					</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="https://cola1605.github.io/System_News/about/">
+						<span class="menu__text">Giới thiệu</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
 </header>
